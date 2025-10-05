@@ -394,6 +394,18 @@ $company_name_client = $booking['company_name'] ?? '';
             padding-right: 5px;
             padding-left: 5px;
         }
+         .invoice-logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        
+        .invoice-logo {
+            max-width: 100px;
+            height: auto;
+            object-fit: contain;
+        }
         
         @media print {
             body {
