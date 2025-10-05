@@ -5,7 +5,7 @@ require_client_auth(); // Use helper function
 require_once __DIR__ . '/../../../config/settings.php';
 
 // Get company details from settings
-$company_name = get_setting('company_name', 'KINGLANG TOURS AND TRANSPORT SERVICES INC.');
+$company_name = get_setting('company_name', 'KINGLANG TRANSPORT');
 $company_address = get_setting('company_address', '295-B, Purok 4, M. L. Quezon Ave, Lower Bicutan, Taguig, 1632 Metro Manila');
 $company_contact = get_setting('company_contact', '0917-882-2727 / 0932-882-2727');
 $company_email = get_setting('company_email', 'bsmillamina@yahoo.com');
