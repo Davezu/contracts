@@ -450,6 +450,9 @@ $company_name_client = $booking['company_name'] ?? '';
         <!-- Contract Content -->
         <div class="contract-content">
         <div class="header">
+            <div class="invoice-logo-container">
+                <img src="/../../../public/images/logo.png" alt="Kinglang Bus Logo" class="invoice-logo">
+            </div>
             <h3><?php echo $company_name; ?></h3>
             <p>Address: <?php echo $company_address; ?></p>
             <p>Contact: <?php echo $company_contact; ?> | Email: <?php echo $company_email; ?></p>
